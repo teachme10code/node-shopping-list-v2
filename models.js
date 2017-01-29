@@ -53,6 +53,7 @@ function createShoppingList() {
   return storage;
 }
 
+//CHRIS' CODE
 const Recipes = {
   create: function(name, ingredients) {
     console.log('Creating a new recipe');
@@ -90,7 +91,7 @@ function createRecipes() {
   storage.items = {};
   return storage;
 }
-
+//END CHRIS' CODE
 module.exports = {
   ShoppingList: createShoppingList(),
   Recipes: createRecipes()
